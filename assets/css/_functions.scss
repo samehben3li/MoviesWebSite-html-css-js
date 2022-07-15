@@ -1,0 +1,15 @@
+@mixin flexAlignCenter {
+    display: flex;
+    align-items: center;
+}
+
+@mixin circul($w,$h) {
+    width: $w;
+    height: $h;
+    border-radius: 50%;
+}
+
+@mixin setWidthAndHeight($w,$h) {
+    width: $w;
+    height: $h;
+}
